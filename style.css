@@ -1,0 +1,148 @@
+/* --- Halaman --- */
+body {
+    background-color: #fef9e7 !important; /* Warna krem lembut khas buku resep */
+    font-family: "Georgia", serif;
+    color: #444;
+    padding: 20px;
+}
+
+/* --- container --- */
+.main-container {
+    max-width: 1350px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    border: 5px solid #f1c40f;
+    box-shadow: 0 10px 25px rgba(212, 172, 13, 0.1);
+}
+
+/* --- Judul Atas --- */
+.judul-buku {
+    text-align: center;
+    color: #d4ac0d;
+    font-family: 'Monotype Corsiva', cursive;
+    font-size: 3.8rem;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.05);
+}
+
+/* --- Form Input --- */
+input[type="text"], 
+textarea, 
+select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #f1c40f !important;
+    border-radius: 12px !important;
+    background-color: #fffdec !important;
+    font-size: 0.95rem;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus, 
+textarea:focus, 
+select:focus {
+    border-color: #d4ac0d !important;
+    box-shadow: 0 0 8px rgba(212, 172, 13, 0.3) !important;
+    outline: none;
+}
+
+.btn-simpan {
+    background: linear-gradient(to right, #f1c40f, #d4ac0d);
+    color: #444;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    font-weight: bold;
+    width: 100%;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-simpan:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(212, 172, 13, 0.3);
+}
+
+/* --- Penguncian Grid Tabel --- */
+.table-responsive {
+    border-radius: 12px;
+    border: 1px solid #f9ebae;
+    background: #ffffff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th {
+    background-color: #f1c40f !important;
+    color: #444 !important;
+    padding: 14px;
+    border: 1px solid #f9ebae;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+td {
+    padding: 15px;
+    border: 1px solid #f9ebae;
+    vertical-align: top;
+    line-height: 1.6;
+    word-wrap: break-word; 
+    font-size: 0.9rem;
+}
+
+/* --- Desain Bahan dan Langkah didalam Tabel --- */
+.tag-section {
+    color: #d4ac0d;
+    font-size: 0.82rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    letter-spacing: 0.5px;
+}
+
+/* --- Edit & Hapus --- */
+.btn-aksi {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    margin: 4px 0;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 0.75rem;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.btn-edit {
+    color: #3498db;
+    border: 1px solid #3498db;
+    background: #ffffff;
+}
+
+.btn-edit:hover {
+    background: #3498db;
+    color: #ffffff;
+}
+
+.btn-hapus {
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+    background: #ffffff;
+}
+
+.btn-hapus:hover {
+    background: #e74c3c;
+    color: #ffffff;
+}
